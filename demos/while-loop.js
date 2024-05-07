@@ -1,9 +1,9 @@
 "use strict"
 let number = 1
-let count = 1
+let numberOfTimesThroughLoop = 1
 
-while (count<5){
+while (numberOfTimesThroughLoop<5){
     number = number * 2;
     console.log(number);
-    count = count + 1;
+    numberOfTimesThroughLoop = numberOfTimesThroughLoop + 1;
 }
